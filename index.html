@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Birthday Surprise</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <body style="background-image: url('https://cdn.pixabay.com/photo/2018/02/23/21/29/roses-frame-3176667_960_720.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 100vh; margin: 0;">
+
+
+  <!-- Birthday Message -->
+  <div style="text-align:center; padding: 100px; font-family: 'Segoe UI', sans-serif;">
+    <h1 style="color: red; font-size: 3.5rem; font-family: 'Comic Sans MS', cursive;">Are You Ready for the Surprise?</h1>
+<hr style="width: 80px; border: 2px solid red; margin: 10px auto;" />
+<h2 style="color: red; font-size: 4.5rem; font-family: 'Comic Sans MS', cursive; line-height: 1.4;">
+  🎉 Happy Birthday <br/> Pragya Pandey 🎂
+</h2>
+ </div>
+
+  <!-- Surprise Button -->
+
+
+  <!-- Music -->
+  <audio id="bg-music" autoplay loop>
+    <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Book Overlay -->
+<button class="pookie-btn" id="openBookBtn">Click me bauaa jii..💖</button>
+
+<div class="book-overlay" id="bookOverlay">
+  <div class="book-bg"></div>
+  <div class="book" id="book">
+    <div class="page left-page"></div>
+    <div class="page right-page">
+      <button class="heart-btn" id="heartBtn" title="Send Love">❤️</button>
+      <div class="book-content" id="bookContent"></div>
+      <div class="book-nav" id="bookNav">
+        <button class="nav-btn" id="prevBtn">&lt;</button>
+        <span id="pageIndicator"></span>
+        <button class="nav-btn" id="nextBtn">&gt;</button>
+      </div>
+    </div>
+    <button class="close-btn" id="closeBookBtn">&times;</button>
+  </div>
+</div>
+
+  
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
